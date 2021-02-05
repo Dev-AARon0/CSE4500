@@ -1,4 +1,4 @@
 I have created a new git repository for this class.
 I have installed node.js and the required packages.
-I used Django for my 4050 project so I figured that getting experience with the more traditional
-node.js developement experience. 
+I used Django for my 4050 project so I figured that getting experience with the more traditional node.js development would be a good idea.
+I haven't quite decided what I want to do for the project, but I am leaning towards a social media statistics monitor that will also link to an android app and possibly a chrome extension.
