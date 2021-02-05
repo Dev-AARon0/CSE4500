@@ -1,0 +1,4 @@
+I have created a new git repository for this class.
+I have installed node.js and the required packages.
+I used Django for my 4050 project so I figured that getting experience with the more traditional
+node.js developement experience. 
