@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .monospaceheader {
+                font-family: "Lucida Console", Courier, monospace;
+                color:rgb(75, 61, 35);
+                background-color: rgb(42, 136, 165);
+            }
+
+        </style>
+    </head>
+    <body class = "mellow">
+        <h1 class="monospaceheader">Basic JSON Examples</h1>
+
+        
+        <p></p>
+        <p>JSON examples:</p>
+        <p id= "JSONtest"></p>
+        <p id= "JSONtest2"></p>
+        <script>
+        var obj = {Hidden:"firstval", Number: 1};
+        var firstJSON = JSON.stringify(obj);
+        document.getElementById("JSONtest").innerHTML = firstJSON;
+        
+        var txt = '{"Name": "Aaron", "Class": 4500, "Section": "CSE"}';
+        var obj2 = JSON.parse(txt);
+        document.getElementById("JSONtest2").innerHTML = obj2.Name + ", " + obj2.Section + obj2.Class;
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,3 @@
+I created a json_test.html file
+In it I have put together a simple JSON.stringify example and a parse example.
+I have gone over several of the w3schools resources for using JS and APIs to prepare for the rest of the semester.  
