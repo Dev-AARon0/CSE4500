@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .monospaceheader {
+                font-family: "Lucida Console", Courier, monospace;
+                color:rgb(75, 62, 35);
+                background-color: rgb(42, 136, 165);
+            }
+
+        </style>
+    </head>
+    <body class = "mellow">
+        <h1 class="monospaceheader">Basic API Example</h1>
+
+        
+        <p></p>
+        <p>API example. May need to refresh a few times for server to work.</p>
+        <div class="APItest"></div>
+
+        <script>
+        
+        JokeStealer=()=>{
+            let APItest = document.querySelector(".APItest")
+            let url = "https://v2.jokeapi.dev/joke/Any"
+            fetch(url)
+                .then(response =>{
+                    return response.json()
+                })
+
+                .then(json =>{
+                    console.log("response", json);
+                    APItest.innerHTML = json.joke;
+                });
+
+            }
+
+        JokeStealer()
+
+        </script>
+
+    </body>
+</html>

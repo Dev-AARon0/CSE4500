@@ -1,0 +1,3 @@
+I did a bit of experimenting with the different methods to retrieve from public APIs.
+Finally settled on a fetch method based on this tutorial https://www.youtube.com/watch?v=hz6cuWDg-Wg&t=908s.
+I also did some more research for Node and my project.
