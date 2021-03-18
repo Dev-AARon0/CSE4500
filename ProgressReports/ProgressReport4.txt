@@ -1,0 +1,4 @@
+I haven't done much in this session as far as code goes as I've been busy with midterms.
+I have been doing research on what to do for my project.
+I experimented with some node packages in my api file.
+I was also researching web scraping, because I cant find apis for some of the social networks I'm looking into. 
