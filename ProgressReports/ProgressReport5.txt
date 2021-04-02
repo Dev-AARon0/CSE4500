@@ -1,0 +1,4 @@
+I have been studying extensions and have made a simple alert extension.
+While I did look into technologies like react native for simplifying a system for web and mobile,
+however it seems like an extension is best done separately.
+I have spent this week (spring break) getting things done that I haven't had time for and relaxing with family.
