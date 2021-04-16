@@ -1,0 +1,8 @@
+I have been working on the extension and focusing on youtube.
+initially I wanted it to only load on channels and videos
+but I found that it would not work when going to a new page,
+only when reloading the page. 
+I still haven't found a solution as even the solutions on stackoverflow
+are not working.
+
+I have a few more things to try, but I can still do what I want with the refreshes.

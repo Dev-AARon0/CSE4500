@@ -6,10 +6,23 @@
         "content_scripts": [
             {
                 "matches": [
-                    "<all_urls>"
+                    "https://www.youtube.com/*"
                 ],
-                "js": ["content.js"]
+                "js": ["content.js"],
+                "run_at": "document_start"
+
             }
+        ],
+
+        "background" : {
+            "scripts" : ["background.js"]
+        },
+
+        "permissions": [
+            "https://www.youtube.com/*", "tabs", "webNavigation"
         ]
 
 }
+
+
+
