@@ -6,7 +6,8 @@
         "content_scripts": [
             {
                 "matches": [
-                    "https://www.youtube.com/*"
+                    "*://www.youtube.com/*",
+                    "*://www.youtube.com/*/*"
                 ],
                 "js": ["content.js"],
                 "run_at": "document_start"
@@ -19,7 +20,7 @@
         },
 
         "permissions": [
-            "https://www.youtube.com/*", "tabs", "webNavigation"
+            "*://www.youtube.com/*", "*://www.youtube.com/*/*", "tabs", "webNavigation"
         ]
 
 }

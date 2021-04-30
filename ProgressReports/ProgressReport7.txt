@@ -1,0 +1,7 @@
+I think I figured out the update for youtube sources, though I may need to play with timing because the test alerts are sometimes popping up twice
+when navigating.
+This weekend I also experimented with Amazon Honeycode which allows you to make "codeless" web/mobile apps during the CSE Amazon hackathon.
+Instead of code like javascript or python you use a display editor like android studio has for the layout  and Lambda like you would use in Excel. 
+I do not recommend using it. 
+It only supports 20 free users and the only way to deal with user permissions is by making separate apps for different permission levels.
+The users also have to log into what are essentially developer accounts to even use the apps.
