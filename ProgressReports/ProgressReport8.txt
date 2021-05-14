@@ -1,0 +1,6 @@
+I almost have the extension where I want it.
+I changed the alert to a confirmation window so it can open a link.
+I tried to get it to to read the channel names, 
+but it seems to require a bit more than just a getElementById
+so the window just opens socialblade in a new window.
+I also renamed the extension to Social extension.
